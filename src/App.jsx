@@ -791,7 +791,7 @@ export default function CreatureCanvas() {
   );
 
   return (
-    <div style={{ width: "100vw", height: "100vh", display: "flex", flexDirection: "column", fontFamily: "'Nunito','Quicksand',sans-serif", background: "#111", overflow: "hidden", userSelect: "none", WebkitUserSelect: "none" }}>
+    <div style={{ width: "100vw", height: "100dvh", display: "flex", flexDirection: "column", fontFamily: "'Nunito','Quicksand',sans-serif", background: "#111", overflow: "hidden", userSelect: "none", WebkitUserSelect: "none" }}>
       {/* Top Bar */}
       <div style={{ display: "flex", alignItems: "center", padding: "5px 8px", gap: 4, background: dk ? "rgba(0,0,0,.5)" : "rgba(255,255,255,.92)", backdropFilter: "blur(12px)", borderBottom: dk ? "1px solid rgba(255,255,255,.06)" : "1px solid rgba(0,0,0,.05)", zIndex: 20, flexShrink: 0 }}>
         <button onClick={undo} style={topBtn}>↩️</button>
